@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+    "name": "TOTP Fast Access",
+    "version": "0.1",
+    "description": "Helper for fast access TOTP resources.",
+
+    "permissions": ["tabs", "activeTab", "storage", "<all_urls>"],
+	
+	"browser_action": {
+		"default_title": "Set TOTP code",
+		"default_popup": "popup.html"
+	}
+  }
