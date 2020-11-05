@@ -1,3 +1,6 @@
+import jsSHA from './sha1';
+import _ from './jsOTP';
+
 (function () {
 	var currentTab = null;
 	var keyForm = null;

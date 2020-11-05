@@ -1,3 +1,5 @@
+import jsSHA from './sha1';
+
 (function() {
   var Hotp, Totp;
 
