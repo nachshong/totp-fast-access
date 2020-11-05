@@ -1,13 +1,11 @@
 {
-	"manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html", 
+      "default_title": "TOTP Fast Access"
+    },
+    "description": "TOTP autenticator in your browser",
+	  "manifest_version": 2,
     "name": "TOTP Fast Access",
-    "version": "0.1",
-    "description": "Helper for fast access TOTP resources.",
-
-    "permissions": ["tabs", "activeTab", "storage", "<all_urls>"],
-	
-	"browser_action": {
-		"default_title": "Set TOTP code",
-		"default_popup": "popup.html"
-	}
-  }
+    "permissions": [ "activeTab", "storage" ],
+    "version": "0.1"
+}
