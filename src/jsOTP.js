@@ -1,4 +1,4 @@
-import jsSHA from './sha1';
+import jsSHA from 'jssha/dist/sha1';
 
 (function() {
   var Hotp, Totp;
