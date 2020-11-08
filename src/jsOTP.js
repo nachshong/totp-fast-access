@@ -1,3 +1,7 @@
+/*
+    https://github.com/jiangts/JS-OTP/blob/master/dist/jsOTP.js
+ */
+
 import jsSHA from 'jssha/dist/sha1';
 
 (function() {
